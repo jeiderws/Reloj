@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        object : CountDownTimer(3000,1){
+        object : CountDownTimer(4000,1){
             override fun onTick(millisUntilFinished: Long) {
 
             }
